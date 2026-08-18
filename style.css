@@ -114,3 +114,37 @@ h3 {
     justify-content: flex-end;
     width: 415px;
 }
+.footer-1 {
+    background-color: #2e9963;
+    width: 600px;
+    height: 75px;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    padding: 25px 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-1 button {
+    border: 1px solid whitesmoke;
+}
+.cta {
+    color: whitesmoke;
+    font-weight: bold;
+}
+.cta-desc {
+    font-size: 10px;
+    color:#d9e0ff;
+}
+.footer-2 {
+    background-color: #0d2378;
+    margin: auto;
+    color: #d9e0ff;
+    text-align: center;
+    font-size: 10px;
+    padding: 20px;
+}
