@@ -51,6 +51,7 @@ h2 {
 }
 .header-body-text {
     color: #d9e0ff;
+    white-space: pre-line;
 }
 button {
     color:whitesmoke;
@@ -66,4 +67,50 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+img {
+    border-radius: 8px;
+}
+h3 {
+    color:#0d2378;
+    align-items: center;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-between;
+}
+.icons img {
+    border: 3px solid #2e9963;
+}
+.icons p {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 2px;
+}
+.quote-section {
+    background-color: #e1e3e3;
+    padding:70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.quote {
+    font-size: 24px;
+    font-weight:lighter;
+    font-style: italic;
+    width: 415px;
+}
+.quote-author {
+    font-size: 14px;
+    display: flex;
+    margin: auto;
+    justify-content: flex-end;
+    width: 415px;
 }
